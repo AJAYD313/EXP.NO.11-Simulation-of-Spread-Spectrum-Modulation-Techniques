@@ -3,11 +3,17 @@
 11.Simulation of Spread Spectrum Modulation Techniques
 
 # AIM
+To simulate the process of Direct Sequence Spread Spectrum (DSSS) modulation using Binary Phase Shift Keying (BPSK).
 
 # SOFTWARE REQUIRED
-
+Python (Version 3.x) NumPy (for numerical operations) Matplotlib (for plotting the graphs)
 # ALGORITHMS
-
+Generate random binary data.
+Create a PN sequence of length 8.
+Perform BPSK modulation on the data (0 → -1, 1 → +1).
+Spread the BPSK modulated signal using the PN sequence.
+Modulate the spread signal using a BPSK carrier.
+Plot the DSSS spread signal and the BPSK modulated carrier waveform.
 # PROGRAM
 import numpy as np
 import matplotlib.pyplot as plt
@@ -104,3 +110,4 @@ if __name__ == "__main__":
  <img width="1261" height="636" alt="571718697-3f086c77-ae2f-45bb-9164-d9b277d00dd8" src="https://github.com/user-attachments/assets/bb9e6a87-7b03-43c6-806e-0e0893af6107" />
 
 # RESULT / CONCLUSIONS
+The DSSS spread signal is displayed as a plot showing the baseband spread signal after applying the PN sequence. The BPSK modulated signal is shown as a plot of the BPSK modulated carrier waveform
